@@ -86,16 +86,10 @@ INNER JOIN "db_youtube_cleaned"."cleaned_statistics_reference_data" b
 - **Total Dislikes by Content Category** (bar)  
 
 
----
-
-## 7. 🔎 Insights (sample)
-- **Music & Entertainment** dominate views/likes.  
-- **GB** shows a strong share of views vs **US/CA**.  
-- **People & Blogs** and **Entertainment** attract higher dislikes (by volume).  
 
 ---
 
-## 8. 🛠️ Tech Stack
+## 7. 🛠️ Tech Stack
 - **Languages:** Python, SQL, PySpark  
 - **AWS Services:** S3, Glue, Lambda, Athena, QuickSight, CloudWatch  
 - **Data Format:** JSON → Parquet  
@@ -103,7 +97,7 @@ INNER JOIN "db_youtube_cleaned"."cleaned_statistics_reference_data" b
 
 ---
 
-## 9. 🚀 Reproduce Locally
+## 8. 🚀 Reproduce Locally
 1. Put raw JSON in S3 **Landing**.  
 2. Run Glue **Crawlers**, then **ETL** to write Parquet to **Cleansed**.  
 3. Query with **Athena**, create reporting views.  
@@ -111,7 +105,7 @@ INNER JOIN "db_youtube_cleaned"."cleaned_statistics_reference_data" b
 
 ---
 
-## 10. 🧭 Future Enhancements
+## 9. 🧭 Future Enhancements
 - Orchestrate with **Step Functions**  
 - Load curated datasets into **Redshift**  
 - IaC with **Terraform/CloudFormation**, CI/CD  
