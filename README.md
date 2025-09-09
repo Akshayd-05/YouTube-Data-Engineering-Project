@@ -65,7 +65,7 @@ AWS Lambda is triggered on new file uploads. It:
 
 ### 5. Analytics & Querying
 Athena queries allow interactive SQL analysis directly on S3.
-![Amazon Athena](./athena.png)
+![Amazon Athena](./Athena.png)
 
 **Example query joining raw statistics with category reference data:**
 
